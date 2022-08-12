@@ -1,0 +1,20 @@
+{
+  "name": "sandbox-experiment",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --file specs/specHelper.js --recursive --watch specs"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0",
+    "sinon-chai": "^3.7.0"
+  },
+  "keywords": [],
+  "description": ""
+}
